@@ -1,0 +1,506 @@
+fileFormatVersion: 2
+guid: 3ccc655eae945c9479cfbd8dcbd381c0
+timeCreated: 1443538826
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: ik_leaf
+    100002: ik_leaf1
+    100004: iK_leaf1_CTRL
+    100006: ik_leaf2
+    100008: ik_leaf3
+    100010: iK_leaf3_CTRL
+    100012: ik_leaf4
+    100014: iK_leaf4_CTRL
+    100016: ik_leaf5
+    100018: iK_leaf5_CTRL
+    100020: ik_leaf6
+    100022: iK_leaf6_CTRL
+    100024: ik_leaf7
+    100026: iK_leaf7_CTRL
+    100028: ik_leaf8
+    100030: iK_leaf8_CTRL
+    100032: ik_leaf9
+    100034: iK_leaf9_CTRL
+    100036: iK_leaf_CTRL
+    100038: iK_leaf_CTRL2
+    100040: IK_trunk
+    100042: ik_trunk_CTRL
+    100044: leaf
+    100046: leaf 1
+    100048: leaf 2
+    100050: leaf 3
+    100052: leaf 4
+    100054: leaf1
+    100056: leaf1 1
+    100058: leaf1 2
+    100060: leaf1 3
+    100062: leaf1 4
+    100064: leaf2
+    100066: leaf2 1
+    100068: leaf2 2
+    100070: leaf2 3
+    100072: leaf2 4
+    100074: leaf3
+    100076: leaf3 1
+    100078: leaf3 2
+    100080: leaf3 3
+    100082: leaf3 4
+    100084: leaf4
+    100086: leaf4 1
+    100088: leaf4 2
+    100090: leaf4 3
+    100092: leaf4 4
+    100094: leaf5
+    100096: leaf5 1
+    100098: leaf5 2
+    100100: leaf5 3
+    100102: leaf5 4
+    100104: leaf6
+    100106: leaf6 1
+    100108: leaf6 2
+    100110: leaf6 3
+    100112: leaf6 4
+    100114: leaf7
+    100116: leaf7 1
+    100118: leaf7 2
+    100120: leaf7 3
+    100122: leaf7 4
+    100124: leaf8
+    100126: leaf8 1
+    100128: leaf8 2
+    100130: leaf8 3
+    100132: leaf8 4
+    100134: leaf9
+    100136: leaf9 1
+    100138: leaf9 2
+    100140: leaf9 3
+    100142: leaf9 4
+    100144: leaf_CTRL
+    100146: leaf_CTRL_grp
+    100148: palmier_geo
+    100150: //RootNode
+    100152: pamlier_group
+    100154: ROOT
+    100156: skel_grp
+    100158: SUPER_CTRL
+    100160: SUPER_CTRL_GRP
+    100162: trunk
+    100164: trunk 1
+    100166: trunk 2
+    100168: trunk 3
+    100170: trunk 4
+    100172: trunk 5
+    100174: trunk 6
+    100176: trunk 7
+    400000: ik_leaf
+    400002: ik_leaf1
+    400004: iK_leaf1_CTRL
+    400006: ik_leaf2
+    400008: ik_leaf3
+    400010: iK_leaf3_CTRL
+    400012: ik_leaf4
+    400014: iK_leaf4_CTRL
+    400016: ik_leaf5
+    400018: iK_leaf5_CTRL
+    400020: ik_leaf6
+    400022: iK_leaf6_CTRL
+    400024: ik_leaf7
+    400026: iK_leaf7_CTRL
+    400028: ik_leaf8
+    400030: iK_leaf8_CTRL
+    400032: ik_leaf9
+    400034: iK_leaf9_CTRL
+    400036: iK_leaf_CTRL
+    400038: iK_leaf_CTRL2
+    400040: IK_trunk
+    400042: ik_trunk_CTRL
+    400044: leaf
+    400046: leaf 1
+    400048: leaf 2
+    400050: leaf 3
+    400052: leaf 4
+    400054: leaf1
+    400056: leaf1 1
+    400058: leaf1 2
+    400060: leaf1 3
+    400062: leaf1 4
+    400064: leaf2
+    400066: leaf2 1
+    400068: leaf2 2
+    400070: leaf2 3
+    400072: leaf2 4
+    400074: leaf3
+    400076: leaf3 1
+    400078: leaf3 2
+    400080: leaf3 3
+    400082: leaf3 4
+    400084: leaf4
+    400086: leaf4 1
+    400088: leaf4 2
+    400090: leaf4 3
+    400092: leaf4 4
+    400094: leaf5
+    400096: leaf5 1
+    400098: leaf5 2
+    400100: leaf5 3
+    400102: leaf5 4
+    400104: leaf6
+    400106: leaf6 1
+    400108: leaf6 2
+    400110: leaf6 3
+    400112: leaf6 4
+    400114: leaf7
+    400116: leaf7 1
+    400118: leaf7 2
+    400120: leaf7 3
+    400122: leaf7 4
+    400124: leaf8
+    400126: leaf8 1
+    400128: leaf8 2
+    400130: leaf8 3
+    400132: leaf8 4
+    400134: leaf9
+    400136: leaf9 1
+    400138: leaf9 2
+    400140: leaf9 3
+    400142: leaf9 4
+    400144: leaf_CTRL
+    400146: leaf_CTRL_grp
+    400148: palmier_geo
+    400150: //RootNode
+    400152: pamlier_group
+    400154: ROOT
+    400156: skel_grp
+    400158: SUPER_CTRL
+    400160: SUPER_CTRL_GRP
+    400162: trunk
+    400164: trunk 1
+    400166: trunk 2
+    400168: trunk 3
+    400170: trunk 4
+    400172: trunk 5
+    400174: trunk 6
+    400176: trunk 7
+    4300000: palmier_geo
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: palmier_geo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 1
+    optimizeGameObjects: 0
+    motionNodeName: skel_grp/ROOT
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 3
+      lastFrame: 68
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pamlier_group
+        weight: 1
+      - path: pamlier_group/palmier_geo
+        weight: 1
+      - path: skel_grp
+        weight: 1
+      - path: skel_grp/ROOT
+        weight: 1
+      - path: skel_grp/ROOT/trunk
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf/leaf 1
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf/leaf 1/leaf 2
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf/leaf 1/leaf 2/leaf 3
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf/leaf 1/leaf 2/leaf 3/leaf 4
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf1
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf1/leaf1 1
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf1/leaf1 1/leaf1 2
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf1/leaf1 1/leaf1 2/leaf1 3
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf1/leaf1 1/leaf1 2/leaf1 3/leaf1 4
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf2
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf2/leaf2 1
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf2/leaf2 1/leaf2 2
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf2/leaf2 1/leaf2 2/leaf2 3
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf2/leaf2 1/leaf2 2/leaf2 3/leaf2 4
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf3
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf3/leaf3 1
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf3/leaf3 1/leaf3 2
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf3/leaf3 1/leaf3 2/leaf3 3
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf3/leaf3 1/leaf3 2/leaf3 3/leaf3 4
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf4
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf4/leaf4 1
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf4/leaf4 1/leaf4 2
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf4/leaf4 1/leaf4 2/leaf4 3
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf4/leaf4 1/leaf4 2/leaf4 3/leaf4 4
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf5
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf5/leaf5 1
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf5/leaf5 1/leaf5 2
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf5/leaf5 1/leaf5 2/leaf5 3
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf5/leaf5 1/leaf5 2/leaf5 3/leaf5 4
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf6
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf6/leaf6 1
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf6/leaf6 1/leaf6 2
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf6/leaf6 1/leaf6 2/leaf6 3
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf6/leaf6 1/leaf6 2/leaf6 3/leaf6 4
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf7
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf7/leaf7 1
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf7/leaf7 1/leaf7 2
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf7/leaf7 1/leaf7 2/leaf7 3
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf7/leaf7 1/leaf7 2/leaf7 3/leaf7 4
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf8
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf8/leaf8 1
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf8/leaf8 1/leaf8 2
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf8/leaf8 1/leaf8 2/leaf8 3
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf8/leaf8 1/leaf8 2/leaf8 3/leaf8 4
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf9
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf9/leaf9 1
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf9/leaf9 1/leaf9 2
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf9/leaf9 1/leaf9 2/leaf9 3
+        weight: 1
+      - path: skel_grp/ROOT/trunk/trunk 1/trunk 2/trunk 3/trunk 4/trunk 5/trunk 6/trunk
+          7/leaf9/leaf9 1/leaf9 2/leaf9 3/leaf9 4
+        weight: 1
+      - path: SUPER_CTRL_GRP
+        weight: 1
+      - path: SUPER_CTRL_GRP/SUPER_CTRL
+        weight: 1
+      - path: SUPER_CTRL_GRP/SUPER_CTRL/ik_trunk_CTRL
+        weight: 1
+      - path: SUPER_CTRL_GRP/SUPER_CTRL/ik_trunk_CTRL/IK_trunk
+        weight: 1
+      - path: SUPER_CTRL_GRP/SUPER_CTRL/ik_trunk_CTRL/leaf_CTRL_grp
+        weight: 1
+      - path: SUPER_CTRL_GRP/SUPER_CTRL/ik_trunk_CTRL/leaf_CTRL_grp/leaf_CTRL
+        weight: 1
+      - path: SUPER_CTRL_GRP/SUPER_CTRL/ik_trunk_CTRL/leaf_CTRL_grp/leaf_CTRL/iK_leaf1_CTRL
+        weight: 1
+      - path: SUPER_CTRL_GRP/SUPER_CTRL/ik_trunk_CTRL/leaf_CTRL_grp/leaf_CTRL/iK_leaf1_CTRL/ik_leaf1
+        weight: 1
+      - path: SUPER_CTRL_GRP/SUPER_CTRL/ik_trunk_CTRL/leaf_CTRL_grp/leaf_CTRL/iK_leaf3_CTRL
+        weight: 1
+      - path: SUPER_CTRL_GRP/SUPER_CTRL/ik_trunk_CTRL/leaf_CTRL_grp/leaf_CTRL/iK_leaf3_CTRL/ik_leaf3
+        weight: 1
+      - path: SUPER_CTRL_GRP/SUPER_CTRL/ik_trunk_CTRL/leaf_CTRL_grp/leaf_CTRL/iK_leaf4_CTRL
+        weight: 1
+      - path: SUPER_CTRL_GRP/SUPER_CTRL/ik_trunk_CTRL/leaf_CTRL_grp/leaf_CTRL/iK_leaf4_CTRL/ik_leaf4
+        weight: 1
+      - path: SUPER_CTRL_GRP/SUPER_CTRL/ik_trunk_CTRL/leaf_CTRL_grp/leaf_CTRL/iK_leaf5_CTRL
+        weight: 1
+      - path: SUPER_CTRL_GRP/SUPER_CTRL/ik_trunk_CTRL/leaf_CTRL_grp/leaf_CTRL/iK_leaf5_CTRL/ik_leaf5
+        weight: 1
+      - path: SUPER_CTRL_GRP/SUPER_CTRL/ik_trunk_CTRL/leaf_CTRL_grp/leaf_CTRL/iK_leaf6_CTRL
+        weight: 1
+      - path: SUPER_CTRL_GRP/SUPER_CTRL/ik_trunk_CTRL/leaf_CTRL_grp/leaf_CTRL/iK_leaf6_CTRL/ik_leaf6
+        weight: 1
+      - path: SUPER_CTRL_GRP/SUPER_CTRL/ik_trunk_CTRL/leaf_CTRL_grp/leaf_CTRL/iK_leaf7_CTRL
+        weight: 1
+      - path: SUPER_CTRL_GRP/SUPER_CTRL/ik_trunk_CTRL/leaf_CTRL_grp/leaf_CTRL/iK_leaf7_CTRL/ik_leaf7
+        weight: 1
+      - path: SUPER_CTRL_GRP/SUPER_CTRL/ik_trunk_CTRL/leaf_CTRL_grp/leaf_CTRL/iK_leaf8_CTRL
+        weight: 1
+      - path: SUPER_CTRL_GRP/SUPER_CTRL/ik_trunk_CTRL/leaf_CTRL_grp/leaf_CTRL/iK_leaf8_CTRL/ik_leaf8
+        weight: 1
+      - path: SUPER_CTRL_GRP/SUPER_CTRL/ik_trunk_CTRL/leaf_CTRL_grp/leaf_CTRL/iK_leaf9_CTRL
+        weight: 1
+      - path: SUPER_CTRL_GRP/SUPER_CTRL/ik_trunk_CTRL/leaf_CTRL_grp/leaf_CTRL/iK_leaf9_CTRL/ik_leaf9
+        weight: 1
+      - path: SUPER_CTRL_GRP/SUPER_CTRL/ik_trunk_CTRL/leaf_CTRL_grp/leaf_CTRL/iK_leaf_CTRL
+        weight: 1
+      - path: SUPER_CTRL_GRP/SUPER_CTRL/ik_trunk_CTRL/leaf_CTRL_grp/leaf_CTRL/iK_leaf_CTRL/ik_leaf
+        weight: 1
+      - path: SUPER_CTRL_GRP/SUPER_CTRL/ik_trunk_CTRL/leaf_CTRL_grp/leaf_CTRL/iK_leaf_CTRL2
+        weight: 1
+      - path: SUPER_CTRL_GRP/SUPER_CTRL/ik_trunk_CTRL/leaf_CTRL_grp/leaf_CTRL/iK_leaf_CTRL2/ik_leaf2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
