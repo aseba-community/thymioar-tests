@@ -1,0 +1,443 @@
+fileFormatVersion: 2
+guid: ed47f6abeffcf63428e7a8754b877a13
+timeCreated: 1446046711
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: branche_0_CTRL
+    100002: branche_0_CTRL_grp
+    100004: branche_1
+    100006: branche_1_CTRL
+    100008: branche_1_CTRL_grp
+    100010: branche_2
+    100012: branche_2_CTRL
+    100014: branche_2_CTRL_grp
+    100016: branchelongue_1_CTRL
+    100018: branchelongue_1_CTRL_grp
+    100020: branchelongue_2_CTRL
+    100022: branchelongue_2_CTRL_grp
+    100024: branches_1
+    100026: branches_longue_1
+    100028: branches_longue_2
+    100030: //RootNode
+    100032: bushes_geo
+    100034: CTRL
+    100036: leaf
+    100038: MAIN_CTRL
+    100040: MAIN_CTRL_GRP
+    100042: ROOT
+    100044: skel_grp
+    100046: SUPER_CTRL
+    100048: SUPER_CTRL_grp
+    100050: tronc_2
+    100052: tronc_2_CTRL
+    100054: tronc_2_CTRL_grp
+    100056: tronc_base
+    100058: tronc_base_CTRL
+    100060: tronc_base_CTRL_grp
+    100062: trunk
+    100064: trunk 1
+    100066: trunk 2
+    100068: trunk 3
+    100070: trunk3
+    400000: branche_0_CTRL
+    400002: branche_0_CTRL_grp
+    400004: branche_1
+    400006: branche_1_CTRL
+    400008: branche_1_CTRL_grp
+    400010: branche_2
+    400012: branche_2_CTRL
+    400014: branche_2_CTRL_grp
+    400016: branchelongue_1_CTRL
+    400018: branchelongue_1_CTRL_grp
+    400020: branchelongue_2_CTRL
+    400022: branchelongue_2_CTRL_grp
+    400024: branches_1
+    400026: branches_longue_1
+    400028: branches_longue_2
+    400030: //RootNode
+    400032: bushes_geo
+    400034: CTRL
+    400036: leaf
+    400038: MAIN_CTRL
+    400040: MAIN_CTRL_GRP
+    400042: ROOT
+    400044: skel_grp
+    400046: SUPER_CTRL
+    400048: SUPER_CTRL_grp
+    400050: tronc_2
+    400052: tronc_2_CTRL
+    400054: tronc_2_CTRL_grp
+    400056: tronc_base
+    400058: tronc_base_CTRL
+    400060: tronc_base_CTRL_grp
+    400062: trunk
+    400064: trunk 1
+    400066: trunk 2
+    400068: trunk 3
+    400070: trunk3
+    4300000: leaf
+    4300002: trunk
+    7400000: normal
+    7400002: impact
+    7400004: idle
+    9500000: //RootNode
+    13700000: leaf
+    13700002: trunk
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: skel_grp/ROOT
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: normal
+      takeName: buisson big rig 2uv2
+      firstFrame: 2
+      lastFrame: 72
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bushes_geo
+        weight: 1
+      - path: bushes_geo/leaf
+        weight: 1
+      - path: bushes_geo/trunk
+        weight: 1
+      - path: CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/SUPER_CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branche_0_CTRL_grp
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branche_0_CTRL_grp/branche_0_CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branchelongue_1_CTRL_grp
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branchelongue_1_CTRL_grp/branchelongue_1_CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branchelongue_1_CTRL_grp/branchelongue_1_CTRL/branche_1_CTRL_grp
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branchelongue_1_CTRL_grp/branchelongue_1_CTRL/branche_1_CTRL_grp/branche_1_CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branchelongue_2_CTRL_grp
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branchelongue_2_CTRL_grp/branchelongue_2_CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branchelongue_2_CTRL_grp/branchelongue_2_CTRL/branche_2_CTRL_grp
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branchelongue_2_CTRL_grp/branchelongue_2_CTRL/branche_2_CTRL_grp/branche_2_CTRL
+        weight: 1
+      - path: skel_grp
+        weight: 1
+      - path: skel_grp/ROOT
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_1
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_1/trunk 1
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_longue_1
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_longue_1/branche_1
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_longue_1/branche_1/trunk 2
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_longue_2
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_longue_2/branche_2
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_longue_2/branche_2/trunk 3
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_longue_2/branche_2/trunk3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: buisson big rig 2uv2
+      firstFrame: 73
+      lastFrame: 146
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bushes_geo
+        weight: 1
+      - path: bushes_geo/leaf
+        weight: 1
+      - path: bushes_geo/trunk
+        weight: 1
+      - path: CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/SUPER_CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branche_0_CTRL_grp
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branche_0_CTRL_grp/branche_0_CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branchelongue_1_CTRL_grp
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branchelongue_1_CTRL_grp/branchelongue_1_CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branchelongue_1_CTRL_grp/branchelongue_1_CTRL/branche_1_CTRL_grp
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branchelongue_1_CTRL_grp/branchelongue_1_CTRL/branche_1_CTRL_grp/branche_1_CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branchelongue_2_CTRL_grp
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branchelongue_2_CTRL_grp/branchelongue_2_CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branchelongue_2_CTRL_grp/branchelongue_2_CTRL/branche_2_CTRL_grp
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branchelongue_2_CTRL_grp/branchelongue_2_CTRL/branche_2_CTRL_grp/branche_2_CTRL
+        weight: 1
+      - path: skel_grp
+        weight: 1
+      - path: skel_grp/ROOT
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_1
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_1/trunk 1
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_longue_1
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_longue_1/branche_1
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_longue_1/branche_1/trunk 2
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_longue_2
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_longue_2/branche_2
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_longue_2/branche_2/trunk 3
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_longue_2/branche_2/trunk3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: impact
+      takeName: buisson big rig 2uv2
+      firstFrame: 146
+      lastFrame: 216
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bushes_geo
+        weight: 1
+      - path: bushes_geo/leaf
+        weight: 1
+      - path: bushes_geo/trunk
+        weight: 1
+      - path: CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/SUPER_CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branche_0_CTRL_grp
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branche_0_CTRL_grp/branche_0_CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branchelongue_1_CTRL_grp
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branchelongue_1_CTRL_grp/branchelongue_1_CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branchelongue_1_CTRL_grp/branchelongue_1_CTRL/branche_1_CTRL_grp
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branchelongue_1_CTRL_grp/branchelongue_1_CTRL/branche_1_CTRL_grp/branche_1_CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branchelongue_2_CTRL_grp
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branchelongue_2_CTRL_grp/branchelongue_2_CTRL
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branchelongue_2_CTRL_grp/branchelongue_2_CTRL/branche_2_CTRL_grp
+        weight: 1
+      - path: CTRL/MAIN_CTRL_GRP/MAIN_CTRL/SUPER_CTRL_grp/tronc_base_CTRL_grp/tronc_base_CTRL/tronc_2_CTRL_grp/tronc_2_CTRL/branchelongue_2_CTRL_grp/branchelongue_2_CTRL/branche_2_CTRL_grp/branche_2_CTRL
+        weight: 1
+      - path: skel_grp
+        weight: 1
+      - path: skel_grp/ROOT
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_1
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_1/trunk 1
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_longue_1
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_longue_1/branche_1
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_longue_1/branche_1/trunk 2
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_longue_2
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_longue_2/branche_2
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_longue_2/branche_2/trunk 3
+        weight: 1
+      - path: skel_grp/ROOT/tronc_base/tronc_2/branches_longue_2/branche_2/trunk3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: ROOT
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
