@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+Vuforia SDK v5.0.6
+ Qualcomm Connected Experiences, Inc
+=============================================================
+
+This Readme file contains certain notices of software components
+included with the Vuforia SDK v5.0.6 that 
+Qualcomm Connected Experiences is required to provide you. Notwithstanding anything in the
+ notices in this file, your use of these software components together
+with the Vuforia SDK is subject to the terms of your license from 
+Qualcomm Connected Experiences.  Compliance with all copyright laws and software license
+=======
 Vuforia SDK v5.0.10
 PTC Inc.
 =============================================================
@@ -8,6 +20,7 @@ PTC Inc. is required to provide you. Notwithstanding anything in the
 notices in this file, your use of these software components together
 with the Vuforia SDK is subject to the terms of your license from
 PTC Inc.  Compliance with all copyright laws and software license
+>>>>>>> origin/master
 agreements included in the notice section of this file are the
 responsibility of the user.  Except as may be granted by separate
 express written agreement, this file provides no license to any
