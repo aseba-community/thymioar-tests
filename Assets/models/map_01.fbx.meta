@@ -9,19 +9,39 @@ ModelImporter:
     100002: map
     100004: //RootNode
     100006: skybox
+    100008: cloud_1
+    100010: cloud_2
+    100012: mapcenter
+    100014: terrain
     400000: cloud
     400002: map
     400004: //RootNode
     400006: skybox
+    400008: cloud_1
+    400010: cloud_2
+    400012: mapcenter
+    400014: terrain
     2300000: cloud
     2300002: map
     2300004: skybox
+    2300006: cloud_1
+    2300008: cloud_2
+    2300010: mapcenter
+    2300012: terrain
     3300000: cloud
     3300002: map
     3300004: skybox
+    3300006: cloud_1
+    3300008: cloud_2
+    3300010: mapcenter
+    3300012: terrain
     4300000: skybox
     4300002: cloud
     4300004: map
+    4300006: cloud_2
+    4300008: cloud_1
+    4300010: terrain
+    4300012: mapcenter
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -79,8 +99,10 @@ ModelImporter:
     legStretch: .0500000007
     feetSpacing: 0
     rootMotionBoneName: 
+    hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
+  humanoidOversampling: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
